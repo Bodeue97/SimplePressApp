@@ -15,11 +15,17 @@ Endpoint pozwalający na zapis artykułu prasowego.
 Parametry: 
 
 String title - tytuł artykułu
+
 String contents - treść artykułu
+
 String paperName - nazwa czasopisma
+
 String authorFirstname - imie autora
+
 String authorLastname - nazwisko autora
+
 String publicationDate - data publikacji w formacie yyyy-MM-dd
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -67,11 +73,17 @@ Parametry:
 Jeśli pole pozostawione jest puste, wartość pola nie zostanie zaktualizowana i pozostanie taka jak przed wywołaniem metody.
 
 String title - nowy tytuł artykułu
+
 String contents - nowa treść artykułu
+
 String paperName - nowa nazwa czasopisma
+
 String authorFirstname - nowe imię autora
+
 String authorLastname - nowe nazwisko autora
+
 String publicationDate - nowa data publikacji
+
 Long id - id artykułu, który chcemy zaktualizować
 
 ------------------------------------------------------------------------------------------------------------------------
